@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AC2C6217FA25C10058D0C4 /* cpuKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5317FA25C10058D0C4 /* cpuKernel.cpp */; };
+		43AC2C6317FA25C10058D0C4 /* cpuComputeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5417FA25C10058D0C4 /* cpuComputeController.cpp */; };
+		43AC2C6417FA25C10058D0C4 /* cpuComputeContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5517FA25C10058D0C4 /* cpuComputeContext.cpp */; };
+		43AC2C6517FA25C10058D0C4 /* cpuEvalLimitContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5617FA25C10058D0C4 /* cpuEvalLimitContext.cpp */; };
+		43AC2C6617FA25C10058D0C4 /* cpuEvalLimitController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5717FA25C10058D0C4 /* cpuEvalLimitController.cpp */; };
+		43AC2C6717FA25C10058D0C4 /* cpuEvalLimitKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5817FA25C10058D0C4 /* cpuEvalLimitKernel.cpp */; };
+		43AC2C6817FA25C10058D0C4 /* cpuEvalStencilsContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5917FA25C10058D0C4 /* cpuEvalStencilsContext.cpp */; };
+		43AC2C6917FA25C10058D0C4 /* cpuEvalStencilsController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5A17FA25C10058D0C4 /* cpuEvalStencilsController.cpp */; };
+		43AC2C6A17FA25C10058D0C4 /* cpuVertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5B17FA25C10058D0C4 /* cpuVertexBuffer.cpp */; };
+		43AC2C6B17FA25C10058D0C4 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5C17FA25C10058D0C4 /* error.cpp */; };
+		43AC2C6C17FA25C10058D0C4 /* evalLimitContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5D17FA25C10058D0C4 /* evalLimitContext.cpp */; };
+		43AC2C6D17FA25C10058D0C4 /* drawContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5E17FA25C10058D0C4 /* drawContext.cpp */; };
+		43AC2C6E17FA25C10058D0C4 /* drawRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C5F17FA25C10058D0C4 /* drawRegistry.cpp */; };
+		43AC2C6F17FA25C10058D0C4 /* gcdKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C6017FA25C10058D0C4 /* gcdKernel.cpp */; };
+		43AC2C7017FA25C10058D0C4 /* gcdComputeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2C6117FA25C10058D0C4 /* gcdComputeController.cpp */; };
+		43AC2C9017FA25D60058D0C4 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7117FA25D60058D0C4 /* debug.h */; };
+		43AC2C9117FA25D60058D0C4 /* cpuKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7217FA25D60058D0C4 /* cpuKernel.h */; };
+		43AC2C9217FA25D60058D0C4 /* cpuEvalLimitKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7317FA25D60058D0C4 /* cpuEvalLimitKernel.h */; };
+		43AC2C9317FA25D60058D0C4 /* computeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7417FA25D60058D0C4 /* computeController.h */; };
+		43AC2C9417FA25D60058D0C4 /* cpuComputeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7517FA25D60058D0C4 /* cpuComputeContext.h */; };
+		43AC2C9517FA25D60058D0C4 /* cpuComputeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7617FA25D60058D0C4 /* cpuComputeController.h */; };
+		43AC2C9617FA25D60058D0C4 /* cpuEvalLimitContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7717FA25D60058D0C4 /* cpuEvalLimitContext.h */; };
+		43AC2C9717FA25D60058D0C4 /* cpuEvalLimitController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7817FA25D60058D0C4 /* cpuEvalLimitController.h */; };
+		43AC2C9817FA25D60058D0C4 /* cpuEvalStencilsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7917FA25D60058D0C4 /* cpuEvalStencilsContext.h */; };
+		43AC2C9917FA25D60058D0C4 /* cpuEvalStencilsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7A17FA25D60058D0C4 /* cpuEvalStencilsController.h */; };
+		43AC2C9A17FA25D60058D0C4 /* cpuVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7B17FA25D60058D0C4 /* cpuVertexBuffer.h */; };
+		43AC2C9B17FA25D60058D0C4 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7C17FA25D60058D0C4 /* error.h */; };
+		43AC2C9C17FA25D60058D0C4 /* evalLimitContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7D17FA25D60058D0C4 /* evalLimitContext.h */; };
+		43AC2C9D17FA25D60058D0C4 /* mesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7E17FA25D60058D0C4 /* mesh.h */; };
+		43AC2C9E17FA25D60058D0C4 /* nonCopyable.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C7F17FA25D60058D0C4 /* nonCopyable.h */; };
+		43AC2C9F17FA25D60058D0C4 /* opengl.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8017FA25D60058D0C4 /* opengl.h */; };
+		43AC2CA017FA25D60058D0C4 /* drawContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8117FA25D60058D0C4 /* drawContext.h */; };
+		43AC2CA117FA25D60058D0C4 /* drawRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8217FA25D60058D0C4 /* drawRegistry.h */; };
+		43AC2CA217FA25D60058D0C4 /* vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8317FA25D60058D0C4 /* vertex.h */; };
+		43AC2CA317FA25D60058D0C4 /* vertexDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8417FA25D60058D0C4 /* vertexDescriptor.h */; };
+		43AC2CA417FA25D60058D0C4 /* gcdKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8517FA25D60058D0C4 /* gcdKernel.h */; };
+		43AC2CA517FA25D60058D0C4 /* gcdComputeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8617FA25D60058D0C4 /* gcdComputeController.h */; };
+		43AC2CA617FA25D60058D0C4 /* cpuGLVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8717FA25D60058D0C4 /* cpuGLVertexBuffer.h */; };
+		43AC2CA717FA25D60058D0C4 /* glDrawContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8817FA25D60058D0C4 /* glDrawContext.h */; };
+		43AC2CA817FA25D60058D0C4 /* glDrawRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8917FA25D60058D0C4 /* glDrawRegistry.h */; };
+		43AC2CA917FA25D60058D0C4 /* glVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8A17FA25D60058D0C4 /* glVertexBuffer.h */; };
+		43AC2CAA17FA25D60058D0C4 /* glMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8B17FA25D60058D0C4 /* glMesh.h */; };
+		43AC2CAB17FA25D60058D0C4 /* clComputeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8C17FA25D60058D0C4 /* clComputeContext.h */; };
+		43AC2CAC17FA25D60058D0C4 /* clComputeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8D17FA25D60058D0C4 /* clComputeController.h */; };
+		43AC2CAD17FA25D60058D0C4 /* clVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */; };
+		43AC2CAE17FA25D60058D0C4 /* clGLVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43AC2C4B17FA25390058D0C4 /* libOpenSubdiv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenSubdiv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AC2C5317FA25C10058D0C4 /* cpuKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuKernel.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuKernel.cpp; sourceTree = "<group>"; };
+		43AC2C5417FA25C10058D0C4 /* cpuComputeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuComputeController.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuComputeController.cpp; sourceTree = "<group>"; };
+		43AC2C5517FA25C10058D0C4 /* cpuComputeContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuComputeContext.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuComputeContext.cpp; sourceTree = "<group>"; };
+		43AC2C5617FA25C10058D0C4 /* cpuEvalLimitContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitContext.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitContext.cpp; sourceTree = "<group>"; };
+		43AC2C5717FA25C10058D0C4 /* cpuEvalLimitController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitController.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitController.cpp; sourceTree = "<group>"; };
+		43AC2C5817FA25C10058D0C4 /* cpuEvalLimitKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitKernel.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitKernel.cpp; sourceTree = "<group>"; };
+		43AC2C5917FA25C10058D0C4 /* cpuEvalStencilsContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalStencilsContext.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalStencilsContext.cpp; sourceTree = "<group>"; };
+		43AC2C5A17FA25C10058D0C4 /* cpuEvalStencilsController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalStencilsController.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalStencilsController.cpp; sourceTree = "<group>"; };
+		43AC2C5B17FA25C10058D0C4 /* cpuVertexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuVertexBuffer.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuVertexBuffer.cpp; sourceTree = "<group>"; };
+		43AC2C5C17FA25C10058D0C4 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/error.cpp; sourceTree = "<group>"; };
+		43AC2C5D17FA25C10058D0C4 /* evalLimitContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evalLimitContext.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/evalLimitContext.cpp; sourceTree = "<group>"; };
+		43AC2C5E17FA25C10058D0C4 /* drawContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawContext.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/drawContext.cpp; sourceTree = "<group>"; };
+		43AC2C5F17FA25C10058D0C4 /* drawRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawRegistry.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/drawRegistry.cpp; sourceTree = "<group>"; };
+		43AC2C6017FA25C10058D0C4 /* gcdKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdKernel.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/gcdKernel.cpp; sourceTree = "<group>"; };
+		43AC2C6117FA25C10058D0C4 /* gcdComputeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdComputeController.cpp; path = ../../../../OpenSubdiv/opensubdiv/osd/gcdComputeController.cpp; sourceTree = "<group>"; };
+		43AC2C7117FA25D60058D0C4 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = ../../../../OpenSubdiv/opensubdiv/osd/debug.h; sourceTree = "<group>"; };
+		43AC2C7217FA25D60058D0C4 /* cpuKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuKernel.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuKernel.h; sourceTree = "<group>"; };
+		43AC2C7317FA25D60058D0C4 /* cpuEvalLimitKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuEvalLimitKernel.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitKernel.h; sourceTree = "<group>"; };
+		43AC2C7417FA25D60058D0C4 /* computeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = computeController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/computeController.h; sourceTree = "<group>"; };
+		43AC2C7517FA25D60058D0C4 /* cpuComputeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuComputeContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuComputeContext.h; sourceTree = "<group>"; };
+		43AC2C7617FA25D60058D0C4 /* cpuComputeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuComputeController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuComputeController.h; sourceTree = "<group>"; };
+		43AC2C7717FA25D60058D0C4 /* cpuEvalLimitContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuEvalLimitContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitContext.h; sourceTree = "<group>"; };
+		43AC2C7817FA25D60058D0C4 /* cpuEvalLimitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuEvalLimitController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalLimitController.h; sourceTree = "<group>"; };
+		43AC2C7917FA25D60058D0C4 /* cpuEvalStencilsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuEvalStencilsContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalStencilsContext.h; sourceTree = "<group>"; };
+		43AC2C7A17FA25D60058D0C4 /* cpuEvalStencilsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuEvalStencilsController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuEvalStencilsController.h; sourceTree = "<group>"; };
+		43AC2C7B17FA25D60058D0C4 /* cpuVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuVertexBuffer.h; sourceTree = "<group>"; };
+		43AC2C7C17FA25D60058D0C4 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../../../../OpenSubdiv/opensubdiv/osd/error.h; sourceTree = "<group>"; };
+		43AC2C7D17FA25D60058D0C4 /* evalLimitContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evalLimitContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/evalLimitContext.h; sourceTree = "<group>"; };
+		43AC2C7E17FA25D60058D0C4 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mesh.h; path = ../../../../OpenSubdiv/opensubdiv/osd/mesh.h; sourceTree = "<group>"; };
+		43AC2C7F17FA25D60058D0C4 /* nonCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nonCopyable.h; path = ../../../../OpenSubdiv/opensubdiv/osd/nonCopyable.h; sourceTree = "<group>"; };
+		43AC2C8017FA25D60058D0C4 /* opengl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opengl.h; path = ../../../../OpenSubdiv/opensubdiv/osd/opengl.h; sourceTree = "<group>"; };
+		43AC2C8117FA25D60058D0C4 /* drawContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/drawContext.h; sourceTree = "<group>"; };
+		43AC2C8217FA25D60058D0C4 /* drawRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawRegistry.h; path = ../../../../OpenSubdiv/opensubdiv/osd/drawRegistry.h; sourceTree = "<group>"; };
+		43AC2C8317FA25D60058D0C4 /* vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vertex.h; path = ../../../../OpenSubdiv/opensubdiv/osd/vertex.h; sourceTree = "<group>"; };
+		43AC2C8417FA25D60058D0C4 /* vertexDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vertexDescriptor.h; path = ../../../../OpenSubdiv/opensubdiv/osd/vertexDescriptor.h; sourceTree = "<group>"; };
+		43AC2C8517FA25D60058D0C4 /* gcdKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdKernel.h; path = ../../../../OpenSubdiv/opensubdiv/osd/gcdKernel.h; sourceTree = "<group>"; };
+		43AC2C8617FA25D60058D0C4 /* gcdComputeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdComputeController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/gcdComputeController.h; sourceTree = "<group>"; };
+		43AC2C8717FA25D60058D0C4 /* cpuGLVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuGLVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/cpuGLVertexBuffer.h; sourceTree = "<group>"; };
+		43AC2C8817FA25D60058D0C4 /* glDrawContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glDrawContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/glDrawContext.h; sourceTree = "<group>"; };
+		43AC2C8917FA25D60058D0C4 /* glDrawRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glDrawRegistry.h; path = ../../../../OpenSubdiv/opensubdiv/osd/glDrawRegistry.h; sourceTree = "<group>"; };
+		43AC2C8A17FA25D60058D0C4 /* glVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/glVertexBuffer.h; sourceTree = "<group>"; };
+		43AC2C8B17FA25D60058D0C4 /* glMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glMesh.h; path = ../../../../OpenSubdiv/opensubdiv/osd/glMesh.h; sourceTree = "<group>"; };
+		43AC2C8C17FA25D60058D0C4 /* clComputeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clComputeContext.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clComputeContext.h; sourceTree = "<group>"; };
+		43AC2C8D17FA25D60058D0C4 /* clComputeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clComputeController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clComputeController.h; sourceTree = "<group>"; };
+		43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clVertexBuffer.h; sourceTree = "<group>"; };
+		43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clGLVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clGLVertexBuffer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AC2C4817FA25390058D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AC2C4217FA25390058D0C4 = {
+			isa = PBXGroup;
+			children = (
+				43AC2C5217FA259B0058D0C4 /* osdCpu */,
+				43AC2C4C17FA25390058D0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AC2C4C17FA25390058D0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AC2C4B17FA25390058D0C4 /* libOpenSubdiv.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AC2C5217FA259B0058D0C4 /* osdCpu */ = {
+			isa = PBXGroup;
+			children = (
+				43AC2C8C17FA25D60058D0C4 /* clComputeContext.h */,
+				43AC2C8D17FA25D60058D0C4 /* clComputeController.h */,
+				43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */,
+				43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */,
+				43AC2C7417FA25D60058D0C4 /* computeController.h */,
+				43AC2C5517FA25C10058D0C4 /* cpuComputeContext.cpp */,
+				43AC2C7517FA25D60058D0C4 /* cpuComputeContext.h */,
+				43AC2C5417FA25C10058D0C4 /* cpuComputeController.cpp */,
+				43AC2C7617FA25D60058D0C4 /* cpuComputeController.h */,
+				43AC2C5617FA25C10058D0C4 /* cpuEvalLimitContext.cpp */,
+				43AC2C7717FA25D60058D0C4 /* cpuEvalLimitContext.h */,
+				43AC2C5717FA25C10058D0C4 /* cpuEvalLimitController.cpp */,
+				43AC2C7817FA25D60058D0C4 /* cpuEvalLimitController.h */,
+				43AC2C5817FA25C10058D0C4 /* cpuEvalLimitKernel.cpp */,
+				43AC2C7317FA25D60058D0C4 /* cpuEvalLimitKernel.h */,
+				43AC2C5917FA25C10058D0C4 /* cpuEvalStencilsContext.cpp */,
+				43AC2C7917FA25D60058D0C4 /* cpuEvalStencilsContext.h */,
+				43AC2C5A17FA25C10058D0C4 /* cpuEvalStencilsController.cpp */,
+				43AC2C7A17FA25D60058D0C4 /* cpuEvalStencilsController.h */,
+				43AC2C8717FA25D60058D0C4 /* cpuGLVertexBuffer.h */,
+				43AC2C5317FA25C10058D0C4 /* cpuKernel.cpp */,
+				43AC2C7217FA25D60058D0C4 /* cpuKernel.h */,
+				43AC2C5B17FA25C10058D0C4 /* cpuVertexBuffer.cpp */,
+				43AC2C7B17FA25D60058D0C4 /* cpuVertexBuffer.h */,
+				43AC2C7117FA25D60058D0C4 /* debug.h */,
+				43AC2C5E17FA25C10058D0C4 /* drawContext.cpp */,
+				43AC2C8117FA25D60058D0C4 /* drawContext.h */,
+				43AC2C5F17FA25C10058D0C4 /* drawRegistry.cpp */,
+				43AC2C8217FA25D60058D0C4 /* drawRegistry.h */,
+				43AC2C5C17FA25C10058D0C4 /* error.cpp */,
+				43AC2C7C17FA25D60058D0C4 /* error.h */,
+				43AC2C5D17FA25C10058D0C4 /* evalLimitContext.cpp */,
+				43AC2C7D17FA25D60058D0C4 /* evalLimitContext.h */,
+				43AC2C6117FA25C10058D0C4 /* gcdComputeController.cpp */,
+				43AC2C8617FA25D60058D0C4 /* gcdComputeController.h */,
+				43AC2C6017FA25C10058D0C4 /* gcdKernel.cpp */,
+				43AC2C8517FA25D60058D0C4 /* gcdKernel.h */,
+				43AC2C8817FA25D60058D0C4 /* glDrawContext.h */,
+				43AC2C8917FA25D60058D0C4 /* glDrawRegistry.h */,
+				43AC2C8B17FA25D60058D0C4 /* glMesh.h */,
+				43AC2C8A17FA25D60058D0C4 /* glVertexBuffer.h */,
+				43AC2C7E17FA25D60058D0C4 /* mesh.h */,
+				43AC2C7F17FA25D60058D0C4 /* nonCopyable.h */,
+				43AC2C8017FA25D60058D0C4 /* opengl.h */,
+				43AC2C8317FA25D60058D0C4 /* vertex.h */,
+				43AC2C8417FA25D60058D0C4 /* vertexDescriptor.h */,
+			);
+			name = osdCpu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43AC2C4917FA25390058D0C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC2C9017FA25D60058D0C4 /* debug.h in Headers */,
+				43AC2C9117FA25D60058D0C4 /* cpuKernel.h in Headers */,
+				43AC2C9217FA25D60058D0C4 /* cpuEvalLimitKernel.h in Headers */,
+				43AC2C9317FA25D60058D0C4 /* computeController.h in Headers */,
+				43AC2C9417FA25D60058D0C4 /* cpuComputeContext.h in Headers */,
+				43AC2C9517FA25D60058D0C4 /* cpuComputeController.h in Headers */,
+				43AC2C9617FA25D60058D0C4 /* cpuEvalLimitContext.h in Headers */,
+				43AC2C9717FA25D60058D0C4 /* cpuEvalLimitController.h in Headers */,
+				43AC2C9817FA25D60058D0C4 /* cpuEvalStencilsContext.h in Headers */,
+				43AC2C9917FA25D60058D0C4 /* cpuEvalStencilsController.h in Headers */,
+				43AC2C9A17FA25D60058D0C4 /* cpuVertexBuffer.h in Headers */,
+				43AC2C9B17FA25D60058D0C4 /* error.h in Headers */,
+				43AC2C9C17FA25D60058D0C4 /* evalLimitContext.h in Headers */,
+				43AC2C9D17FA25D60058D0C4 /* mesh.h in Headers */,
+				43AC2C9E17FA25D60058D0C4 /* nonCopyable.h in Headers */,
+				43AC2C9F17FA25D60058D0C4 /* opengl.h in Headers */,
+				43AC2CA017FA25D60058D0C4 /* drawContext.h in Headers */,
+				43AC2CA117FA25D60058D0C4 /* drawRegistry.h in Headers */,
+				43AC2CA217FA25D60058D0C4 /* vertex.h in Headers */,
+				43AC2CA317FA25D60058D0C4 /* vertexDescriptor.h in Headers */,
+				43AC2CA417FA25D60058D0C4 /* gcdKernel.h in Headers */,
+				43AC2CA517FA25D60058D0C4 /* gcdComputeController.h in Headers */,
+				43AC2CA617FA25D60058D0C4 /* cpuGLVertexBuffer.h in Headers */,
+				43AC2CA717FA25D60058D0C4 /* glDrawContext.h in Headers */,
+				43AC2CA817FA25D60058D0C4 /* glDrawRegistry.h in Headers */,
+				43AC2CA917FA25D60058D0C4 /* glVertexBuffer.h in Headers */,
+				43AC2CAA17FA25D60058D0C4 /* glMesh.h in Headers */,
+				43AC2CAB17FA25D60058D0C4 /* clComputeContext.h in Headers */,
+				43AC2CAC17FA25D60058D0C4 /* clComputeController.h in Headers */,
+				43AC2CAD17FA25D60058D0C4 /* clVertexBuffer.h in Headers */,
+				43AC2CAE17FA25D60058D0C4 /* clGLVertexBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43AC2C4A17FA25390058D0C4 /* OpenSubdiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AC2C4F17FA25390058D0C4 /* Build configuration list for PBXNativeTarget "OpenSubdiv" */;
+			buildPhases = (
+				43AC2C4717FA25390058D0C4 /* Sources */,
+				43AC2C4817FA25390058D0C4 /* Frameworks */,
+				43AC2C4917FA25390058D0C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSubdiv;
+			productName = OpenSubdiv;
+			productReference = 43AC2C4B17FA25390058D0C4 /* libOpenSubdiv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AC2C4317FA25390058D0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cass Everitt";
+			};
+			buildConfigurationList = 43AC2C4617FA25390058D0C4 /* Build configuration list for PBXProject "OpenSubdiv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43AC2C4217FA25390058D0C4;
+			productRefGroup = 43AC2C4C17FA25390058D0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AC2C4A17FA25390058D0C4 /* OpenSubdiv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AC2C4717FA25390058D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC2C6217FA25C10058D0C4 /* cpuKernel.cpp in Sources */,
+				43AC2C6317FA25C10058D0C4 /* cpuComputeController.cpp in Sources */,
+				43AC2C6417FA25C10058D0C4 /* cpuComputeContext.cpp in Sources */,
+				43AC2C6517FA25C10058D0C4 /* cpuEvalLimitContext.cpp in Sources */,
+				43AC2C6617FA25C10058D0C4 /* cpuEvalLimitController.cpp in Sources */,
+				43AC2C6717FA25C10058D0C4 /* cpuEvalLimitKernel.cpp in Sources */,
+				43AC2C6817FA25C10058D0C4 /* cpuEvalStencilsContext.cpp in Sources */,
+				43AC2C6917FA25C10058D0C4 /* cpuEvalStencilsController.cpp in Sources */,
+				43AC2C6A17FA25C10058D0C4 /* cpuVertexBuffer.cpp in Sources */,
+				43AC2C6B17FA25C10058D0C4 /* error.cpp in Sources */,
+				43AC2C6C17FA25C10058D0C4 /* evalLimitContext.cpp in Sources */,
+				43AC2C6D17FA25C10058D0C4 /* drawContext.cpp in Sources */,
+				43AC2C6E17FA25C10058D0C4 /* drawRegistry.cpp in Sources */,
+				43AC2C6F17FA25C10058D0C4 /* gcdKernel.cpp in Sources */,
+				43AC2C7017FA25C10058D0C4 /* gcdComputeController.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43AC2C4D17FA25390058D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43AC2C4E17FA25390058D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43AC2C5017FA25390058D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43AC2C5117FA25390058D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AC2C4617FA25390058D0C4 /* Build configuration list for PBXProject "OpenSubdiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC2C4D17FA25390058D0C4 /* Debug */,
+				43AC2C4E17FA25390058D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AC2C4F17FA25390058D0C4 /* Build configuration list for PBXNativeTarget "OpenSubdiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC2C5017FA25390058D0C4 /* Debug */,
+				43AC2C5117FA25390058D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AC2C4317FA25390058D0C4 /* Project object */;
+}
