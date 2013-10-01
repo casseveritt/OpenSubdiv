@@ -53,6 +53,18 @@
 		43AC2CAC17FA25D60058D0C4 /* clComputeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8D17FA25D60058D0C4 /* clComputeController.h */; };
 		43AC2CAD17FA25D60058D0C4 /* clVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */; };
 		43AC2CAE17FA25D60058D0C4 /* clGLVertexBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */; };
+		43AC2CC017FB334B0058D0C4 /* glDrawContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CBF17FB334B0058D0C4 /* glDrawContext.cpp */; };
+		43AC2CC217FB34000058D0C4 /* drawContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC117FB34000058D0C4 /* drawContext.cpp */; };
+		43AC2CCD17FB34B80058D0C4 /* cpuComputeContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC317FB34B80058D0C4 /* cpuComputeContext.cpp */; };
+		43AC2CCE17FB34B80058D0C4 /* cpuComputeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC417FB34B80058D0C4 /* cpuComputeController.cpp */; };
+		43AC2CCF17FB34B80058D0C4 /* cpuEvalLimitContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC517FB34B80058D0C4 /* cpuEvalLimitContext.cpp */; };
+		43AC2CD017FB34B80058D0C4 /* cpuEvalLimitController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC617FB34B80058D0C4 /* cpuEvalLimitController.cpp */; };
+		43AC2CD117FB34B80058D0C4 /* cpuEvalLimitKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC717FB34B80058D0C4 /* cpuEvalLimitKernel.cpp */; };
+		43AC2CD217FB34B80058D0C4 /* cpuEvalStencilsContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC817FB34B80058D0C4 /* cpuEvalStencilsContext.cpp */; };
+		43AC2CD317FB34B80058D0C4 /* cpuEvalStencilsController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CC917FB34B80058D0C4 /* cpuEvalStencilsController.cpp */; };
+		43AC2CD417FB34B80058D0C4 /* cpuGLVertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CCA17FB34B80058D0C4 /* cpuGLVertexBuffer.cpp */; };
+		43AC2CD517FB34B80058D0C4 /* cpuKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CCB17FB34B80058D0C4 /* cpuKernel.cpp */; };
+		43AC2CD617FB34B80058D0C4 /* cpuVertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43AC2CCC17FB34B80058D0C4 /* cpuVertexBuffer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +115,18 @@
 		43AC2C8D17FA25D60058D0C4 /* clComputeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clComputeController.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clComputeController.h; sourceTree = "<group>"; };
 		43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clVertexBuffer.h; sourceTree = "<group>"; };
 		43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clGLVertexBuffer.h; path = ../../../../OpenSubdiv/opensubdiv/osd/clGLVertexBuffer.h; sourceTree = "<group>"; };
+		43AC2CBF17FB334B0058D0C4 /* glDrawContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = glDrawContext.cpp; path = ../../opensubdiv/osd/glDrawContext.cpp; sourceTree = "<group>"; };
+		43AC2CC117FB34000058D0C4 /* drawContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawContext.cpp; path = ../../opensubdiv/osd/drawContext.cpp; sourceTree = "<group>"; };
+		43AC2CC317FB34B80058D0C4 /* cpuComputeContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuComputeContext.cpp; path = ../../opensubdiv/osd/cpuComputeContext.cpp; sourceTree = "<group>"; };
+		43AC2CC417FB34B80058D0C4 /* cpuComputeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuComputeController.cpp; path = ../../opensubdiv/osd/cpuComputeController.cpp; sourceTree = "<group>"; };
+		43AC2CC517FB34B80058D0C4 /* cpuEvalLimitContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitContext.cpp; path = ../../opensubdiv/osd/cpuEvalLimitContext.cpp; sourceTree = "<group>"; };
+		43AC2CC617FB34B80058D0C4 /* cpuEvalLimitController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitController.cpp; path = ../../opensubdiv/osd/cpuEvalLimitController.cpp; sourceTree = "<group>"; };
+		43AC2CC717FB34B80058D0C4 /* cpuEvalLimitKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalLimitKernel.cpp; path = ../../opensubdiv/osd/cpuEvalLimitKernel.cpp; sourceTree = "<group>"; };
+		43AC2CC817FB34B80058D0C4 /* cpuEvalStencilsContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalStencilsContext.cpp; path = ../../opensubdiv/osd/cpuEvalStencilsContext.cpp; sourceTree = "<group>"; };
+		43AC2CC917FB34B80058D0C4 /* cpuEvalStencilsController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuEvalStencilsController.cpp; path = ../../opensubdiv/osd/cpuEvalStencilsController.cpp; sourceTree = "<group>"; };
+		43AC2CCA17FB34B80058D0C4 /* cpuGLVertexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuGLVertexBuffer.cpp; path = ../../opensubdiv/osd/cpuGLVertexBuffer.cpp; sourceTree = "<group>"; };
+		43AC2CCB17FB34B80058D0C4 /* cpuKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuKernel.cpp; path = ../../opensubdiv/osd/cpuKernel.cpp; sourceTree = "<group>"; };
+		43AC2CCC17FB34B80058D0C4 /* cpuVertexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuVertexBuffer.cpp; path = ../../opensubdiv/osd/cpuVertexBuffer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,26 +164,37 @@
 				43AC2C8F17FA25D60058D0C4 /* clGLVertexBuffer.h */,
 				43AC2C8E17FA25D60058D0C4 /* clVertexBuffer.h */,
 				43AC2C7417FA25D60058D0C4 /* computeController.h */,
+				43AC2CC317FB34B80058D0C4 /* cpuComputeContext.cpp */,
 				43AC2C5517FA25C10058D0C4 /* cpuComputeContext.cpp */,
 				43AC2C7517FA25D60058D0C4 /* cpuComputeContext.h */,
+				43AC2CC417FB34B80058D0C4 /* cpuComputeController.cpp */,
 				43AC2C5417FA25C10058D0C4 /* cpuComputeController.cpp */,
 				43AC2C7617FA25D60058D0C4 /* cpuComputeController.h */,
+				43AC2CC517FB34B80058D0C4 /* cpuEvalLimitContext.cpp */,
 				43AC2C5617FA25C10058D0C4 /* cpuEvalLimitContext.cpp */,
 				43AC2C7717FA25D60058D0C4 /* cpuEvalLimitContext.h */,
+				43AC2CC617FB34B80058D0C4 /* cpuEvalLimitController.cpp */,
 				43AC2C5717FA25C10058D0C4 /* cpuEvalLimitController.cpp */,
 				43AC2C7817FA25D60058D0C4 /* cpuEvalLimitController.h */,
+				43AC2CC717FB34B80058D0C4 /* cpuEvalLimitKernel.cpp */,
 				43AC2C5817FA25C10058D0C4 /* cpuEvalLimitKernel.cpp */,
 				43AC2C7317FA25D60058D0C4 /* cpuEvalLimitKernel.h */,
+				43AC2CC817FB34B80058D0C4 /* cpuEvalStencilsContext.cpp */,
 				43AC2C5917FA25C10058D0C4 /* cpuEvalStencilsContext.cpp */,
 				43AC2C7917FA25D60058D0C4 /* cpuEvalStencilsContext.h */,
+				43AC2CC917FB34B80058D0C4 /* cpuEvalStencilsController.cpp */,
 				43AC2C5A17FA25C10058D0C4 /* cpuEvalStencilsController.cpp */,
 				43AC2C7A17FA25D60058D0C4 /* cpuEvalStencilsController.h */,
+				43AC2CCA17FB34B80058D0C4 /* cpuGLVertexBuffer.cpp */,
 				43AC2C8717FA25D60058D0C4 /* cpuGLVertexBuffer.h */,
+				43AC2CCB17FB34B80058D0C4 /* cpuKernel.cpp */,
 				43AC2C5317FA25C10058D0C4 /* cpuKernel.cpp */,
 				43AC2C7217FA25D60058D0C4 /* cpuKernel.h */,
+				43AC2CCC17FB34B80058D0C4 /* cpuVertexBuffer.cpp */,
 				43AC2C5B17FA25C10058D0C4 /* cpuVertexBuffer.cpp */,
 				43AC2C7B17FA25D60058D0C4 /* cpuVertexBuffer.h */,
 				43AC2C7117FA25D60058D0C4 /* debug.h */,
+				43AC2CC117FB34000058D0C4 /* drawContext.cpp */,
 				43AC2C5E17FA25C10058D0C4 /* drawContext.cpp */,
 				43AC2C8117FA25D60058D0C4 /* drawContext.h */,
 				43AC2C5F17FA25C10058D0C4 /* drawRegistry.cpp */,
@@ -172,6 +207,7 @@
 				43AC2C8617FA25D60058D0C4 /* gcdComputeController.h */,
 				43AC2C6017FA25C10058D0C4 /* gcdKernel.cpp */,
 				43AC2C8517FA25D60058D0C4 /* gcdKernel.h */,
+				43AC2CBF17FB334B0058D0C4 /* glDrawContext.cpp */,
 				43AC2C8817FA25D60058D0C4 /* glDrawContext.h */,
 				43AC2C8917FA25D60058D0C4 /* glDrawRegistry.h */,
 				43AC2C8B17FA25D60058D0C4 /* glMesh.h */,
@@ -292,6 +328,18 @@
 				43AC2C6E17FA25C10058D0C4 /* drawRegistry.cpp in Sources */,
 				43AC2C6F17FA25C10058D0C4 /* gcdKernel.cpp in Sources */,
 				43AC2C7017FA25C10058D0C4 /* gcdComputeController.cpp in Sources */,
+				43AC2CC017FB334B0058D0C4 /* glDrawContext.cpp in Sources */,
+				43AC2CC217FB34000058D0C4 /* drawContext.cpp in Sources */,
+				43AC2CCD17FB34B80058D0C4 /* cpuComputeContext.cpp in Sources */,
+				43AC2CCE17FB34B80058D0C4 /* cpuComputeController.cpp in Sources */,
+				43AC2CCF17FB34B80058D0C4 /* cpuEvalLimitContext.cpp in Sources */,
+				43AC2CD017FB34B80058D0C4 /* cpuEvalLimitController.cpp in Sources */,
+				43AC2CD117FB34B80058D0C4 /* cpuEvalLimitKernel.cpp in Sources */,
+				43AC2CD217FB34B80058D0C4 /* cpuEvalStencilsContext.cpp in Sources */,
+				43AC2CD317FB34B80058D0C4 /* cpuEvalStencilsController.cpp in Sources */,
+				43AC2CD417FB34B80058D0C4 /* cpuGLVertexBuffer.cpp in Sources */,
+				43AC2CD517FB34B80058D0C4 /* cpuKernel.cpp in Sources */,
+				43AC2CD617FB34B80058D0C4 /* cpuVertexBuffer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +351,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -335,8 +383,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -390,6 +438,7 @@
 				43AC2C5117FA25390058D0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
